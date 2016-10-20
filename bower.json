@@ -1,0 +1,17 @@
+{
+  "name": "node-authentication",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "kyle <zkxw2008@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kylezhang/node-authentication",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
