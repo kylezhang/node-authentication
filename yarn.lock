@@ -23,6 +23,10 @@ body-parser@~1.0.0:
     raw-body "~1.1.2"
     type-is "~1.1.0"
 
+bower@^1.7.9:
+  version "1.7.9"
+  resolved "https://registry.yarnpkg.com/bower/-/bower-1.7.9.tgz#b7296c2393e0d75edaa6ca39648132dd255812b0"
+
 bson@~0.2:
   version "0.2.22"
   resolved "https://registry.yarnpkg.com/bson/-/bson-0.2.22.tgz#fcda103f26d0c074d5a52d50927db80fd02b4b39"
@@ -397,6 +401,10 @@ sliced@0.0.5:
 string_decoder@~0.10.x, string_decoder@0.10:
   version "0.10.31"
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+
+supervisor@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/supervisor/-/supervisor-0.11.0.tgz#3fa869e09c57855aff7128a996d414f4af867d8a"
 
 type-is@~1.1.0:
   version "1.1.0"

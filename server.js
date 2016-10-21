@@ -1,3 +1,4 @@
+var path = require('path')
 var express   = require('express')
 var app       = express()
 var port      = process.env.PORT || 3000
@@ -19,12 +20,15 @@ app.use(bodyParser())
 
 app.set('view engine', 'ejs')
 
+
 app.use(session({ secret : 'ilovescotchscotchyscotchscotch' }))
 app.use(passport.initialize())
 app.use(passport.session())
 app.use(flash())
 
 require('./app/routes.js')(app, passport)
+console.log(path.join(__dirname, '/public'))
+app.use(express.static(path.join(__dirname, '/public')))
 
 app.listen(port)
 console.log(`The magic happens on port ${port}`)
